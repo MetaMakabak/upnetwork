@@ -353,7 +353,12 @@ const Info = () => {
                         <>
                             <div className='fs20 title fb'>Congratulations</div>
                             <div className='mt20 mb30'>You have activited your mobile phone</div>
-                            <div className='fs20 fb'>{`NFT ID#${list[0]?.minted ? list[0]?.tokenId : '??'}`}</div>
+                            <div className='fs20 fb flex_center_center'>
+                                {`NFT ID#${list[0]?.minted ? list[0]?.tokenId : '??'}`}
+                                {!list[0]?.minted && 
+                                    <span className='retryBtn' onClick={retryFn}>retry</span>
+                                }
+                            </div>
                             <div className='checkBtn'>
                                 <Button className='btn_public' onClick={()=>{setShowModal(false)}}>Back</Button>
                             </div>

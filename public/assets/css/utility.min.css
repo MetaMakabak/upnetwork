@@ -6861,6 +6861,10 @@
     width: 100vw
 }
 
+.w-08em {
+    width: .8em
+}
+
 .w-1em {
     width: 1em
 }
@@ -7079,6 +7083,10 @@
 
 .h-0\/25em {
     height: .25em
+}
+
+.h-08em {
+    height: .8em
 }
 
 .h-1em {
@@ -7848,6 +7856,14 @@
 
 .leading-60 {
     line-height: 60px
+}
+
+.leading-0\/6em {
+    line-height: .6em
+}
+
+.leading-0\/7em {
+    line-height: .7em
 }
 
 .leading-0\/8em {

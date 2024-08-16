@@ -21,10 +21,15 @@
     align-items: center;
     justify-content: center;
     background-color: var(--dark-grey);
-    border-radius: 24px;
+    border-radius: 10px;
     padding: 0 18px;
 }
-
+.retryBtn{
+    margin-left: 10px;
+    font-size: 18px;
+    color: #ccc;
+    text-decoration: underline;
+}
 .login img {
     width: 27px;
     height: 27px;
