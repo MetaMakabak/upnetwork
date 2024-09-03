@@ -1,0 +1,122 @@
+.ModalDistribute{
+    position: relative;
+    width: 100%;
+    padding: 0px 0px 42px 0px;
+}
+
+.distributorWalletLine{
+    margin-top: 15px;
+    padding: 0px 30px 0px 34px;
+}
+
+.distributorWalletLineValue{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #111111;
+    border-radius: 8px;
+    padding: 0px 10px 0px 8px;
+    position: relative;
+}
+
+.distributorIconRoot{
+    width: 29px;
+    height: 100%;
+    position: relative;
+    margin-right: 8px;
+}
+
+.distributorIcon1{
+    position: absolute;
+    right: 0px;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.distributorIcon2{
+    position: absolute;
+    left: 0px;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.distributorWalletLineValueTips{
+    font-size: 12px;
+    height: 32px;
+    background-color: #5D5F61;
+    border-radius: 8px;
+    padding: 0px 8px;
+    position: absolute;
+    top: -30px;
+    left: -40px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.modalDistributeCommonBtn{
+    width: 164px;
+    height: 35px;
+    background: #1F1F1E;
+    border: 1px solid rgba(255,255,255,1);
+    border-radius: 8px;
+}
+
+.ModalDistributeTop{
+    width: 100%;
+    margin-top: 45px;
+    padding: 0px 31px 0px 34px;
+}
+
+.ModalDistributeTopValueRoot{
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 44px;
+    height: 40px;
+}
+
+.ModalDistributeTierListHead{
+    width: calc(100% - 68px);
+    height: 32px;
+    padding: 0px 8px;
+    border-top: 1px solid rgba(51,51,51,1);
+}
+
+.ModalDistributeTierList{
+    width: calc(100% - 68px);
+    border-top: 1px solid rgba(51,51,51,1);
+    border-bottom: 1px solid rgba(51,51,51,1);
+    padding: 5px 0 15px 0;
+}
+
+.ModalDistributeTierPart{
+    width: 120px;
+    text-align: start;
+}
+
+.ModalDistributeLastSalePart{
+    width: 150px;
+    text-align: center;
+}
+
+.ModalDistributePricePart{
+    width: 90px;
+    text-align: center;
+}
+
+.ModalDistributeCommissionPart{
+    width: 100px;
+    text-align: end;
+}
+
+.ModalDistributeTierListLine{
+    width: 100%;
+    height: 32px;
+    padding: 0px 8px;
+}
+
+.currentTierLine{
+    background: #333333;
+    border-radius: 4px;
+}

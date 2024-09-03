@@ -12,6 +12,11 @@ const url = {
     modifyname: _ + '/account/modifyname',
     invitecodeBind: _ + '/invitecode/bind',
     invitecodeList: _ + '/invitecode/list',
+    exchangeUsd: _ + '/account/exchange/usd',
+    distributorRedeem: _ + '/distributor/redeem',
+    distributorTxLog: _ + '/distributor/get_tx_log',
+    distributorVerification: _ + '/distributor/verification',
+    distributorCdkeyList: _ + '/distributor/issue_cdkey_list',
 }
 export {
     url,

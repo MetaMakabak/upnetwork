@@ -1,0 +1,22 @@
+[
+	{
+		"chainId":8453,
+		"name":"Base",
+		"icon":"UI_Picture-Chain_Base"
+	},			
+	{
+		"chainId":1,
+		"name":"Ethereum",
+		"icon":"UI_Picture-Chain_ETH"
+	},	
+	{
+		"chainId":30732,
+		"name":"Movement Testnet",
+		"icon":"UI_Picture-Chain_Movement"
+	},
+	{
+		"chainId":84532,
+		"name":"Base Sepolia",
+		"icon":"UI_Picture-Chain_Base"
+	}
+]

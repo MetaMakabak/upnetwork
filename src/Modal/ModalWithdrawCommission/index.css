@@ -1,0 +1,68 @@
+.withdrawCommissionAddressInput{
+    width: 294px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent !important;
+    color: #fff;
+    border-color: var(--border-color) !important;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.withdrawCommissionBtn{
+    width: 136px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 39px;
+}
+
+.withdrawCommissionClaimBtn{
+    width: 136px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 19px;
+    margin-bottom: 42px;
+    line-height: 1;
+}
+
+.withdrawCommissionReviewRoot{
+    background: #111111;
+    border-radius: 8px;
+    width: 327px;
+    margin: 37px 0px 26px;
+    padding: 22px 0px 24px;
+}
+
+.withdrawCommissionClaimRoot{
+    background: #111111;
+    border-radius: 8px;
+    width: 327px;
+    margin: 13px 0px 0px;
+    padding: 12px 0px 15px;
+}
+
+.withdrawCommissionRejectRoot{
+    background: #111111;
+    border-radius: 8px;
+    width: 327px;
+    margin: 13px 0px 0px;
+    padding: 12px 0px 5px;
+}
+
+.withdrawCommissionRejectConfirmBtn{
+    background: #1A1A1A;
+    border: 1px solid rgba(255,255,255,1);
+    border-radius: 8px;
+    width: 136px;
+    height: 35px;
+    margin: 19px 0px 42px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+}

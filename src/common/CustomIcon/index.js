@@ -70,7 +70,7 @@ const Index = (props) => {
             }
         }} style={{ width: width, height: height }}>
             <span
-                className={`customIcon`}
+                className={`customIcon ${rotating?'customIconRotate':''}`}
                 onMouseEnter={isHaveHover ? toggleHover : null}
                 onMouseLeave={isHaveHover ? toggleHover : null}
                 style={{ color: color || "none", width: width, height: height, ...style, ...imgSrc }}

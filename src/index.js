@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { PrivyProvider } from '@privy-io/react-auth';
+import {GetSupportedChainList} from "./utils/common.js";
 import { envConfig } from './utils/env';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -21,6 +22,7 @@ root.render(
             // "logo": 'https://www.turnup.so/logo512.png'
           },
           captchaEnabled: false,
+          supportedChains: GetSupportedChainList(),
           embeddedWallets: {
             createOnLogin: "all-users",
             noPromptOnSignature: true, // defaults to false

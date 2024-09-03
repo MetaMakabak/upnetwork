@@ -1420,6 +1420,11 @@ h6 {
 .is-stuck .lqd-stickybar-wrap.lqd-show-onstuck {
     transition-delay: 0.15s;
 }
+
+.lqd-stickybar-wrap-fixed {
+    position: fixed !important;
+}
+
 [data-sticky-header] .lqd-stickybar-wrap {
     position: fixed !important;
 }
@@ -6222,7 +6227,7 @@ style + .ld-module-sd > .ld-module-dropdown:last-child {
 }
 .lqd-cc--inner,
 .lqd-cc--outer {
-    z-index: 1100;
+    z-index: 5000;
     mix-blend-mode: var(--lqd-cc-blend-mode);
     transform-origin: center;
 }

@@ -48,7 +48,9 @@ And
  `./public/assets/contentAppend.js` 
  `const str = "xxxxx"`
 
-修改index.html时`<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />`以及`<div id="root"></div>`这两行不能删除或者修改，其他代码可以进行随意增删改操作
+修改index.html时`<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />`这一行以及`<div id="root"></div>`这不能删除或者修改，其他代码可以进行随意增删改操作
 修改后的index.html代码需要注意将`<div id="wrap">xxxxxx</div>` 中间的代码 要拷贝到 `./public/assets/contentAppend.js` 文件中的  `const str = ` 直接替换后面内容即可。
 以上为修改UI操作后的整个过程
+
+
 

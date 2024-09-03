@@ -82,12 +82,78 @@ const invitecodeList = () => {
         })
     })
 }
+
+const getExchangeUsd = () => {
+    return new Promise((resolve, reject) => {
+        http('get', url.exchangeUsd, {
+        }).then((res) => {
+            resolve(res)
+        }).catch(e => {
+            reject(e);
+        })
+    })
+} 
+
+const distributorRedeem = (cdkey) => {
+    return new Promise((resolve, reject) => {
+        http('post', url.distributorRedeem, {
+            cdkey
+        }).then((res) => {
+            resolve(res)
+        }).catch(e => {
+            reject(e);
+        })
+    })
+}
+
+const getDistributorTxLog = (page) => {
+    return new Promise((resolve, reject) => {
+        http('post', url.distributorTxLog, {
+            page
+        }).then((res) => {
+            resolve(res)
+        }).catch(e => {
+            reject(e);
+        })
+    })
+}
+
+const getDistributorCdkeyList = () => {
+    return new Promise((resolve, reject) => {
+        http('post', url.distributorCdkeyList, {
+            
+        }).then((res) => {
+            resolve(res)
+        }).catch(e => {
+            reject(e);
+        })
+    })
+}
+
+const distributorVerification = (type, code) => {
+    return new Promise((resolve, reject) => {
+        http('post', url.distributorVerification, {
+            type,
+            code,
+        }).then((res) => {
+            resolve(res)
+        }).catch(e => {
+            reject(e);
+        })
+    })
+}
+
 export {
     loginFn,
     getInfo,
     checkCdkey,
     retry,
     modifyname,
+    getExchangeUsd,
+    distributorRedeem,
+    getDistributorTxLog,
+    getDistributorCdkeyList,
+    distributorVerification,
     invitecodeList,
     invitecodeBind
 }

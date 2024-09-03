@@ -19,6 +19,20 @@
   background-size: contain;
   
 }
+
+.customIconRotate{
+  animation: customIconRotateAni 0.5s linear infinite;
+}
+
+@keyframes customIconRotateAni{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
 /* 
 // img{
 //   width: 100%;

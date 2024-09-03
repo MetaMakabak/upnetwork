@@ -1,0 +1,42 @@
+[
+	{
+		"ID":3073200,
+		"chainId":30732,
+		"isNative":1,
+		"isEnable":1,
+		"name":"Movement Testnet",
+		"coinName":"MOVE",
+		"displayCoinName":"MOVE",
+		"icon":"UI_Picture-Currency_MOVE"
+	},
+	{
+		"ID":845300,
+		"chainId":8453,
+		"isNative":1,
+		"isEnable":1,
+		"name":"Base",
+		"coinName":"ETH",
+		"displayCoinName":"ETH(Base)",
+		"icon":"UI_Picture-Currency_ETH_Base"
+	},
+	{
+		"ID":100,
+		"chainId":1,
+		"isNative":1,
+		"isEnable":1,
+		"name":"Ethereum",
+		"coinName":"ETH",
+		"displayCoinName":"ETH",
+		"icon":"UI_Picture-Currency_ETH"
+	},
+    {
+		"ID":8453200,
+		"chainId":84532,
+		"isNative":1,
+		"isEnable":0,
+		"name":"Base Sepolia",
+		"coinName":"ETH",
+		"displayCoinName":"ETH",
+		"icon":"UI_Picture-Currency_ETH_Base"
+	}
+]

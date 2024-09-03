@@ -4,6 +4,11 @@
 :root{
   --yellow:#FDD10F;
   --gray:#1A1A1A;
+
+  --font-common: "Roboto", Arial, Helvetica, sans-serif;
+}
+.fontCommon{
+  font-family: var(--font-common) !important;
 }
 .color-yellow{
   color: var(--yellow) !important;
@@ -20,20 +25,16 @@
   flex: 1;
 }
 
-.fs16{
-  font-size: 16px;
-}
-
-.fs12{
-  font-size: 12px;
-}
-
-.fs18{
-  font-size: 18px;
-}
-
 .tlc{
   text-align: center;
+}
+
+.tls{
+  text-align: start;
+}
+
+.tle{
+  text-align: end;
 }
 
 .flex_center_start{
@@ -48,6 +49,26 @@
   justify-content: flex-end;
 }
 
+.flex_center_between{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex_center_start_col{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.flex_center_between_col{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 .momentDrawerWarp .momentDrawer{
   background-color: var(--gray);
   /* border-top: 2px solid var(--TP-blue-light); */
@@ -59,11 +80,20 @@
 .ml5{
   margin-left: 5px;
 }
+.ml8{
+  margin-left: 8px;
+}
 .ml10{
   margin-left: 10px;
 }
+.ml20{
+  margin-left: 20px;
+}
 .mr5{
   margin-right: 5px;
+}
+.mr8{
+  margin-right: 8px;
 }
 .mr10{
   margin-right: 10px;
@@ -75,6 +105,13 @@
   margin: 20px 0;
 }
 
+.forceWordBreak{
+  word-break: break-all;
+}
+
+.nowrap{
+  white-space: nowrap;
+}
 
 /* @font-face {
   font-family: "Helvetica";
@@ -127,6 +164,9 @@ body{
 .w100p{
   width: 100%;
 }
+.h100p{
+  height: 100%;
+}
 .textstyle-none{
   text-decoration:none
 }
@@ -162,45 +202,42 @@ body{
   font-weight: bold;
 }
 
-.fs20 {
-  font-size: 20px;
-}
-
-.fs24 {
-  font-size: 24px;
-}
-
-.fs80 {
-  font-size: 80px;
-}
-
-
-.fs16 {
-  font-size: 16px;
-}
-
 .fs12 {
   font-size: 12px;
 }
-
+.fs14{
+  font-size: 14px;
+}
+.fs16 {
+  font-size: 16px;
+}
 .fs18 {
   font-size: 18px;
+}
+.fs20 {
+  font-size: 20px;
+}
+.fs24 {
+  font-size: 24px;
 }
 .fs26{
   font-size: 26px;
 }
+.fs30{
+  font-size: 30px;
+}
 .fs32{
   font-size: 32px;
 }
-
 .fs48{
   font-size: 48px;
 }
-
 .fs71{
   font-size: 71px;
 }
-
+.fs80 {
+  font-size: 80px;
+}
 .fs89{
   font-size: 89px;
   font-weight: 400;
@@ -221,9 +258,6 @@ body{
   font-size: 178px;
 }
 
-.tlc {
-  text-align: center;
-}
 .pl40{
   padding-left: 40px;
 }
@@ -242,6 +276,19 @@ body{
   
 }
 
+.flex_center_center_col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex_start_start{
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+}
+
 .flex_col {
   flex-direction: column;
 }
@@ -251,6 +298,13 @@ body{
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+.flex_center_end_col {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 
 .flex_center_between {
@@ -263,6 +317,18 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.modalCloseBtn{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.confirmModalWrap.ant-modal .ant-modal-close{
+  background-image: url(../public/img/UI_Picture_Icon_Close_01.png);
+  width: 22px;
+  height: 22px;
 }
 
 .momentDrawerWarp .momentDrawer {
@@ -305,7 +371,19 @@ body{
   margin-right: 50px;
 }
 
+.mr2 {
+  margin-right: 2px;
+}
+
 .mr5 {
+  margin-right: 5px;
+}
+
+.mr6 {
+  margin-right: 6px;
+}
+
+.mr7 {
   margin-right: 5px;
 }
 
@@ -331,6 +409,14 @@ body{
   margin-top: 10px;
 }
 
+.mt12 {
+  margin-top: 12px;
+}
+
+.mt14 {
+  margin-top: 14px;
+}
+
 .mt20 {
   margin-top: 20px;
 }
@@ -353,6 +439,9 @@ body{
 
 .mt80{
   margin-top: 80px;
+}
+.mt100{
+  margin-top: 100px;
 }
 .mt110{
   margin-top: 110px;
@@ -467,7 +556,10 @@ body{
 }
 
 .ant-btn-default:disabled {
-  background-color: #ccc;
+  background-color: #333333;
+}
+.ant-btn-default:disabled span {
+  color: #555555;
 }
 .pointer{
   cursor: pointer;
@@ -485,4 +577,34 @@ body{
 }
 .upSwiper.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
   margin: 0 15px;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
+input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+.ant-modal.modalnopadding.confirmModalWrap .ant-modal-content{
+  padding: 0px !important;
+}
+
+.op4{
+  opacity: 0.4;
+}
+
+.op6{
+  opacity: 0.6;
+}
+
+.comfirmbtn{
+  background: var(--yellow);
+  border-radius: 8px;
+  color: #333333;
+}
+
+.infinite-scroll-component__outerdiv{
+  width: 100%;
 }

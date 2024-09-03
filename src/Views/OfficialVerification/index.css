@@ -1,0 +1,154 @@
+.OfficialVerification{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.OfficialVerificationLogo{
+    position: absolute;
+    left: 42px;
+    top: 47px;
+}
+
+.OfficialVerificationLogo_v{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.OfficialVerificationContent{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: auto;
+}
+
+.OfficialVerificationContentTitle{
+    font-size: 40px;
+    text-align: left;
+}
+
+.OfficialVerificationContentTitle_v{
+    margin-top: 113px;
+    font-size: 36px;
+    width: 90%;
+    line-height: 38px;
+}
+
+.OfficialVerificationContentTextRoot{
+    margin-top: 40px;
+}
+
+.OfficialVerificationContentText{
+    width: 90%;
+    line-height: 1.3;
+}
+
+.OfficialVerificationContentText_v{
+    margin-top: 27px;
+    width: 90%;
+    line-height: 18px;
+}
+
+.OfficialVerificationEnterCodeRoot{
+    margin-top: 60px;
+    position: relative;
+    background: #000000;
+    border: 1px solid rgba(153,153,153,1);
+    border-radius: 4px;
+    height: 57px;
+}
+
+.OfficialVerificationEnterCodeRoot_v{
+    width: 92%;
+    margin-top: 52px;
+    position: relative;
+    background: #000000;
+    border: 1px solid rgba(153,153,153,1);
+    border-radius: 8px;
+    height: 51px;
+}
+
+.OfficialVerificationEnterCodePlatform{
+    min-width: 29.67%;
+    position: relative;
+    padding-left: 30px;
+}
+
+.OfficialVerificationEnterCodePlatform_v{
+    min-width: 36%;
+    position: relative;
+    padding-left: 14px;
+}
+
+.OfficialVerificationVLine{
+    width: 1px;
+    height: 16px;
+    border-left: 1px solid rgba(153,153,153,1);
+}
+
+.OfficialVerificationEnterCodePlatformArrow{
+    opacity: 0.6;
+    position: absolute;
+    right: 10px;
+}
+
+.OfficialVerificationEnterCodePlatformList{
+    width: 29.67%;
+    background-color: #1A1A1A;
+    border-radius: 8px;
+    padding: 12px 0px;
+    position: absolute;
+    left: 0px;
+    top: 66px;
+}
+
+.OfficialVerificationEnterCodePlatformList_v{
+    width: 36%;
+    background-color: #1A1A1A;
+    border-radius: 8px;
+    padding: 12px 0px;
+    position: absolute;
+    left: 0px;
+    top: 66px;
+}
+
+.OfficialVerificationEnterCodePlatformItem{
+    width: 93.4%;
+    height: 39px;
+    border-radius: 8px;
+    margin: 4px 0px;
+    opacity: 0.6;
+}
+
+.OfficialVerificationEnterCodePlatformItemName{
+    color: rgba(255,255,255,1);
+}
+
+.OfficialVerificationEnterCodePlatformItem:hover{
+    background-color: #111111;
+    opacity: 1;
+}
+
+.officialVerificationInput{
+    margin-left: 10px;
+    height: 100%;
+    border: none;
+    background: rgba(0, 0, 0, 0) !important;
+    font-family: var(--lqd-body-font-family);
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+
+.officialVerificationInput_v{
+    margin-left: 10px;
+    height: 100%;
+    border: none;
+    background: rgba(0, 0, 0, 0) !important;
+    font-family: var(--lqd-body-font-family);
+    font-size: 12px;
+    color: rgba(255,255,255,1);
+}
