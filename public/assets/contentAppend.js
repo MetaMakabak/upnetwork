@@ -20,10 +20,11 @@
         <div class="lqd-fancy-menu lqd-custom-menu lqd-menu-td-none lqd-custom-menu-has-btn flex items-center fixed bg-white-10 rounded-10 pr-10 pb-5 pl-20">
             <ul class="reset-ul inline-ul link-white-40 link-14" data-localscroll="true" data-localscroll-options='{"itemsSelector":">li > a", "trackWindowScroll": true, "includeParentAsOffset": false}'>
                 <li class="menu-item-object-page menu-item-home current-menu-item mr-40"><a href="#banner">Home</a></li>
+                <li class="mr-40"><a href="#nbm">NBM</a></li>
                 <li class="mr-40"><a href="#parallax-section">Pre-Order<!-- <span class="link-badge" style="--lqd-badge-color: #747474;">Pre-order</span> --></a></li>
                 <li class="mr-40"><a href="#main-features">Features</a></li>
                 <li class="mr-40"><a href="#backers">Backers</a></li>
-                <li class="mr-40"><a href="#news">News</a></li>
+                <li class="mr-10"><a href="#news">News</a></li>
             </ul>
             <!-- <div class="lqd-custom-menu-btn-wrap ml-40">
                 <a href="#modal-subscribe" class="btn btn-solid btn-xs btn-icon-shaped text-14 rounded-6 py-5 px-10 text-black bg-primary" data-lity="modal-subscribe"><span data-text="Login" class="btn-txt">Login</span></a>
@@ -94,6 +95,7 @@
                 data-localscroll-options='{"itemsSelector":"> li > a", "trackWindowScroll": true, "includeParentAsOffset": true}'
             >
                 <li class="current-menu-item"><a class="text-white" href="#banner">Home</a></li>
+                <li><a class="text-white" href="#nbm">NBM</a></li>
                 <li><a class="text-white" href="#parallax-section">Pre-Order<!-- <span class="link-badge" style="--lqd-badge-color: #747474;">Pre-order</span> --></a></li>
                 <li><a class="text-white" href="#main-features">Features</a></li>
                 <li><a class="text-white" href="#backers">Backers</a></li>
@@ -224,7 +226,153 @@
 
 
     <!-- Start Carousel Text -->
-    <section class="lqd-section carousel-text pt-90">
+    <section class="lqd-section carousel-text pt-90 z-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-12 p-0">
+                    <div class="carousel-container carousel-dots-mobile-inside carousel-dots-mobile-center">
+                        <div class="carousel-items row -mx-30" data-lqd-flickity='{ "columnsAutoWidth":true,"wrapAround":true,"marquee":true,"cellAlign" : "left", "prevNextButtons":false,"pageDots":false,"groupCells":false,"pauseAutoPlayOnHover":false}'>
+                            <div class="carousel-item px-30">
+                                <div class="carousel-item-inner">
+                                    <div class="carousel-item-content text-12vw uppercase tracking-0/5 text-center">
+                                        <h3 class="m-0 text-1em whitespace-nowrap text-white-10 font-ultrabold">Next Billion Movement.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item px-30">
+                                <div class="carousel-item-inner">
+                                    <div class="carousel-item-content text-12vw uppercase tracking-0/5 text-center">
+                                        <h3 class="m-0 text-1em whitespace-nowrap text-white-10 font-ultrabold">Next Billion Movement.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item px-30">
+                                <div class="carousel-item-inner">
+                                    <div class="carousel-item-content text-12vw uppercase tracking-0/5 text-center">
+                                        <h3 class="m-0 text-1em whitespace-nowrap text-white-10 font-ultrabold">Next Billion Movement.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col col-12 -->
+            </div>
+        </div>
+    </section>
+    <!-- End Carousel Text -->
+
+
+    <section class="lqd-section float-text pt-200 pb-200 bg-center bg-no-repeat bg-cover transition-bg"
+            id="nbm"
+            data-parallax="true"
+            data-parallax-options='{"ease": "linear", "start": "top bottom", "end": "bottom+=0px top"}'
+            data-parallax-from='{"y": "100px", "scaleX" : 0.8, "scaleY" : 0.8}'
+            data-parallax-to='{"y": "-300px", "scaleX" : 1, "scaleY" : 1}'
+    >
+        <div class="module-video-3 w-full h-full absolute top-0 left-0 overflow-hidden z-0 transotion-opacity pointer-events-none bg-before">
+            <video class="background-video-hosted max-w-full w-full h-full absolute-center object-cover opacity-40" style="mix-blend-mode:screen;filter: saturate(0%);" src="assets/videos/dark-ai/banner/nbm-01.mp4" autoplay muted playsinline loop></video>
+        </div>
+        <div class="container">
+            <div class="row gap-60">
+
+
+                <div
+                    class="col col-12 p-0"
+                    data-parallax="true"
+                    data-parallax-options='{"ease" :"linear", "start": "top bottom", "end": "bottom+=0px top"}'
+                    data-parallax-from='{"y": "20px", "opacity" : 0.8}'
+                    data-parallax-to='{"y": "0px", "opacity" : 1}'
+                >
+                    <div class="elementor-widget-container">
+                        <h3
+                            class="lqd-text-reveal-el mt-0 -mb-80 text-white text-center text-80"
+                            data-split-text="true"
+                            data-split-options='{"type": "words, chars"}'
+                            data-parallax="true"
+                            data-parallax-options='{"parallaxTargets": ".lqd-chars, figure", "start": "top 70%", "end": "bottom bottom", "scrub" : 3}'
+                            data-parallax-from='{"opacity" : 0.2}'
+                            data-parallax-to='{"opacity" : 1, "stagger": {"from": "start", "each" : 1}}'
+                        >
+                           Next Billion Movement
+                        </h3>
+                    </div>
+                </div>
+
+
+                <div
+                    class="col col-12 p-0"
+                    data-parallax="true"
+                    data-parallax-options='{"ease" :"linear", "start": "top bottom", "end": "bottom+=0px top"}'
+                    data-parallax-from='{"y": "120px", "opacity" : 0.6}'
+                    data-parallax-to='{"y": "0px", "opacity" : 1}'
+                >
+                    <div class="elementor-widget-container">
+                        <h3
+                            class="lqd-text-reveal-el-2 mt-0 mb-0 text-yellow-100 text-center text-40"
+                            data-split-text="true"
+                            data-split-options='{"type": "words, chars"}'
+                            data-parallax="true"
+                            data-parallax-options='{"parallaxTargets": ".lqd-chars, figure", "start": "top 70%", "end": "bottom bottom", "scrub" : 3}'
+                            data-parallax-from='{"opacity" : 0.2}'
+                            data-parallax-to='{"opacity" : 1, "stagger": {"from": "start", "each" : 1}}'
+                        >
+                            Through our strategic partnership with Movement Labs, we are establishing the world’s largest smart mobile node network and launching the ‘Next Billion Movement’ initiative to grow the Web3 mobile ecosystem.
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="w-full flex flex-wrap gap-20 items-start justify-center sm:w-full" 
+                    data-parallax="true"
+                    data-parallax-options='{"ease" :"linear", "start": "top bottom", "end": "bottom+=0px top"}'
+                    data-parallax-from='{"y": "120px", "opacity" : 0.6}'
+                    data-parallax-to='{"y": "0px", "opacity" : 1}'
+                >
+                    <!-- <div class="ld-fancy-heading relative w-full max-w-full text-center animation-element">
+                        <p class="ld-fh-element inline-block relative text-14 font-medium leading-22 text-black mb-0/5em">Follow us for more information</p>
+                    </div> -->
+                    <div class="lqd-imggrp-single block relative border-right border-white-20 flex-grow-1 flex-shrink-1 text-center sm:w-25percent animation-element">
+                        <div class="lqd-imggrp-img-container inline-flex relative items-center justify-center">
+                            <figure class="w-full relative">
+                                <img class="sm:w-70percent" width="200" src="./assets/images/client/upnetwork-clw.svg" alt="clients">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="lqd-imggrp-single block relative flex-grow-1 flex-shrink-1 text-center sm:w-25percent animation-element">
+                        <div class="lqd-imggrp-img-container inline-flex relative items-center justifyt-center">
+                            <figure class="w-full relative">
+                                <img class="sm:w-70percent" width="200" src="./assets/images/client/movement-cl.svg" alt="clients">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="w-full relative flex flex-col animation-element"
+                     data-parallax="true"
+                     data-parallax-options='{"ease" :"linear", "start": "top bottom", "end": "bottom+=0px top"}'
+                     data-parallax-from='{"y": "120px", "opacity" : 0.6}'
+                     data-parallax-to='{"y": "0px", "opacity" : 1}'
+                >
+                    <div class="w-30percent mx-auto text-center lg:w-80percent sm:w-full z-100">
+                        <a href="https://nbm.upnetwork.xyz" target="_blank" class="button btn btn-solid btn-md btn-has-label btn-icon-right btn-hover-swp w-full border-3 border-white rounded-100 text-17 leading-2em tracking-1 text-white font-bold hover:bg-primary hover:text-black">
+                        <span class="btn-txt" data-text="Join the event">Learn more "NBM"</span>
+                        <span class="btn-icon">
+                            <i aria-hidden="true" class="lqd-icn-ess icon-md-arrow-forward text-1em"></i>
+                        </span>
+                        <span class="btn-icon mr-10">
+                            <i aria-hidden="true" class="lqd-icn-ess icon-md-arrow-forward text-1em"></i>
+                        </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Start Carousel Text -->
+    <section class="lqd-section carousel-text">
         <div class="container-fluid">
             <div class="row">
                 <div class="col col-12 p-0">
@@ -279,7 +427,7 @@
         data-parallax-to='{"y": "-300px", "scaleX" : 0.6, "scaleY" : 0.6}'
     >   
         <div class="module-video-3 w-full h-full absolute top-0 left-0 overflow-hidden z-0 transotion-opacity pointer-events-none bg-before">
-            <video class="background-video-hosted max-w-full w-full h-full absolute-center object-cover opacity-20" src="assets/videos/dark-ai/banner/bg-video-09-720p.mp4" autoplay muted playsinline loop></video>
+            <video class="background-video-hosted max-w-full w-full h-full absolute-center object-cover opacity-20" src="assets/videos/dark-ai/banner/bg-video-09-540p.mp4" autoplay muted playsinline loop></video>
         </div>
         <div
             class="container flex flex-col"
